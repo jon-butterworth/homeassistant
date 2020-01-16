@@ -1,0 +1,8 @@
+- platform: mqtt
+  state_topic: "rf_bridge/tele/RESULT"
+  name: 'Office Motion'
+  value_template: '{{value_json.RfReceived.Data}}'
+  payload_on: 'F60A9E'
+  payload_off: 'F60A9Eoff'
+  device_class: motion
+  qos: 1

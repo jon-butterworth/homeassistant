@@ -1,0 +1,25 @@
+- name: Home
+  latitude: !secret home_lat
+  longitude: !secret home_long
+  radius: 40
+  icon: mdi:home
+    
+- name: Casino
+  latitude: !secret casino_lat
+  longitude: !secret casino_long
+  radius: 40
+  icon: mdi:poker-chip
+    
+- name: Natasha Work
+  latitude: !secret tash_work_lat
+  longitude: !secret tash_work_long
+  radius: 40
+  icon: mdi:baby-carriage
+
+- name: Jon work
+  latitude: !secret jon_work_lat
+  longitude: !secret jon_work_long
+  radius: 200
+  icon: mdi:office-building
+  
+

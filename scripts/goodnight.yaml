@@ -1,0 +1,21 @@
+goodnight:
+  alias: 'Set the house to night mode.'
+  sequence:
+    - alias: Living room lights off
+      entity_id: light.livingroom
+      service: light.turn_off
+      
+    - alias: Hallway lights off
+      entity_id: light.hallway
+      service: light.turn_off
+    
+    - alias: Office lights off
+      entity_id: light.office
+      service: light.turn_off
+      
+    - alias: Landing light on 10%
+      entity_id: light.landing
+      service: light.turn_on
+      data: 
+        brightness_pct: 10
+        

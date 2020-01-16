@@ -1,0 +1,9 @@
+#light:
+#  - platform: group
+#    name: Living Room Lights
+#    entities: 
+#    - light.tv_unit_lighstrip
+#    - light.tv_lightstrip
+#    - light.living_room_lamp
+#    - light.tv_rear
+#    - light.hue_go_1

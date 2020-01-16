@@ -1,0 +1,40 @@
+views:
+  - title: main
+    icon: mdi:home-outline
+    cards:
+
+      - type: entity-button
+        name: Goodnight House
+        icon: mdi:home
+        tap_action:
+          action: call-service
+          service: script.goodnight
+        service_data:
+          entity_id: script.goodnight
+        entity: script.goodnight
+
+      - type: light
+        entity: light.living_room
+        name: Living Room Lights
+        
+      - type: light
+        entity: light.office
+        name: Office Lights
+        
+      - type: light
+        entity: light.landing
+        name: Landing Light
+        
+      - type: light
+        entity: light.hallway
+        name: Hallway Lights
+            
+      - type: map
+        aspect_ratio: 16:9
+        default_zoom: 12
+        entities:
+          - device_tracker.iphone
+          - device_tracker.jons_iphone
+          - zone.home
+          - zone.casino
+          - zone.natasha_work

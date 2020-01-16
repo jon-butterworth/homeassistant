@@ -1,0 +1,20 @@
+{
+    "data": {
+        "users": [
+            {
+                "password": "JDJiJDEyJDJvM25EM0RDM2tWYVBWZXgucjB6YS50dVNBSUV6c0NVOUxhSFRHZldoaTRSU3pGRlVQNFpH",
+                "username": "jon"
+            },
+            {
+                "password": "JDJiJDEyJEtnNWU1ZWFQZGpSUFMyRzRxdmRGRC4ySnRGTlNDOFE2T2NtT2cvRFpYRlpUQnFMY2VMYWpP",
+                "username": "natasha"
+            },
+            {
+                "password": "JDJiJDEyJDFkdVR0Y2l0YnlMMk83RVlBb2FmZ3VTa2pnakh4RlZWSERBb2F2aGZSVy9mWnp5YllQWmJP",
+                "username": "mqtt"
+            }
+        ]
+    },
+    "key": "auth_provider.homeassistant",
+    "version": 1
+}

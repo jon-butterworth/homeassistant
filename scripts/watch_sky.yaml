@@ -1,0 +1,8 @@
+watch_sky:
+  alias: 'Watch Sky TV through Logitech Harmony'
+  sequence:
+    - alias: Watch Sky TV
+      entity_id: remote.harmony_living_room_hub
+      service: remote.turn_on
+      data:
+        activity: "Watch Sky TV"

@@ -1,0 +1,35 @@
+2020-01-16 17:07:12 WARNING (MainThread) [homeassistant.components.hue.light] Please check for software updates of the Hallway Light 2 bulb in the Philips Hue App.
+2020-01-16 17:07:12 WARNING (MainThread) [homeassistant.components.hue.light] Please check for software updates of the Hallway light 1 bulb in the Philips Hue App.
+2020-01-16 17:09:51 ERROR (MainThread) [homeassistant.helpers.template] Error parsing value: 'value_json' is undefined (value: F60A9Eoff, template: {{value_json.RfReceived.Data}})
+2020-01-16 17:10:04 ERROR (MainThread) [homeassistant.helpers.template] Error parsing value: 'value_json' is undefined (value: F60A9Eoff, template: {{value_json.RfReceived.Data}})
+2020-01-16 17:10:10 ERROR (MainThread) [homeassistant.helpers.template] Error parsing value: 'value_json' is undefined (value: F60A9Eoff, template: {{value_json.RfReceived.Data}})
+2020-01-16 17:19:28 ERROR (MainThread) [homeassistant.helpers.template] Error parsing value: 'value_json' is undefined (value: F60A9Eoff, template: {{value_json.RfReceived.Data}})
+2020-01-16 18:36:14 ERROR (MainThread) [homeassistant.helpers.template] Error parsing value: 'value_json' is undefined (value: F60A9Eoff, template: {{value_json.RfReceived.Data}})
+2020-01-16 18:36:28 ERROR (MainThread) [homeassistant.helpers.template] Error parsing value: 'value_json' is undefined (value: F60A9Eoff, template: {{value_json.RfReceived.Data}})
+2020-01-16 18:36:51 ERROR (MainThread) [aioharmony.hubconnector] 192.168.178.24: Connection timed out for hub 10963767
+2020-01-16 18:39:08 ERROR (MainThread) [homeassistant.helpers.template] Error parsing value: 'value_json' is undefined (value: F60A9Eoff, template: {{value_json.RfReceived.Data}})
+2020-01-16 18:39:14 ERROR (MainThread) [homeassistant.helpers.template] Error parsing value: 'value_json' is undefined (value: F60A9Eoff, template: {{value_json.RfReceived.Data}})
+2020-01-16 18:46:26 ERROR (MainThread) [aioharmony.hubconnector] 192.168.178.24: Connection timed out for hub 10963767
+2020-01-16 18:54:11 ERROR (MainThread) [aioharmony.hubconnector] 192.168.178.24: Connection timed out for hub 10963767
+2020-01-16 19:04:42 ERROR (MainThread) [aioharmony.hubconnector] 192.168.178.24: Connection timed out for hub 10963767
+2020-01-16 19:10:53 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/web_protocol.py", line 275, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\_http_parser.pyx", line 523, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: invalid HTTP method
+2020-01-16 19:15:55 ERROR (MainThread) [aioharmony.hubconnector] 192.168.178.24: Connection timed out for hub 10963767
+2020-01-16 19:46:24 ERROR (MainThread) [aioharmony.hubconnector] 192.168.178.24: Connection timed out for hub 10963767
+2020-01-16 19:49:44 ERROR (MainThread) [aioharmony.hubconnector] 192.168.178.24: Connection timed out for hub 10963767
+2020-01-16 19:51:08 WARNING (MainThread) [homeassistant.components.script] Script script.goodnight already running.
+2020-01-16 19:51:09 WARNING (MainThread) [homeassistant.components.script] Script script.goodnight already running.
+2020-01-16 19:51:10 WARNING (MainThread) [homeassistant.components.script] Script script.goodnight already running.
+2020-01-16 19:51:10 WARNING (MainThread) [homeassistant.components.script] Script script.goodnight already running.
+2020-01-16 19:51:11 WARNING (MainThread) [homeassistant.components.script] Script script.goodnight already running.
+2020-01-16 19:51:12 WARNING (MainThread) [homeassistant.components.script] Script script.goodnight already running.
+2020-01-16 19:51:12 WARNING (MainThread) [homeassistant.components.script] Script script.goodnight already running.
+2020-01-16 19:51:15 WARNING (MainThread) [homeassistant.components.script] Script script.goodnight already running.
+2020-01-16 19:58:17 ERROR (MainThread) [homeassistant.components.hassio] Error loading /config/configuration.yaml:   in "/config/configuration.yaml", line 22, column 7: Unable to read file /config/zones.yaml.
+2020-01-16 20:07:50 ERROR (MainThread) [homeassistant.components.hassio] Error loading /config/configuration.yaml:   in "/config/configuration.yaml", line 22, column 7: Unable to read file /config/zones.yaml.
+2020-01-16 20:12:04 ERROR (MainThread) [homeassistant.components.hassio] Error loading /config/configuration.yaml:   in "/config/configuration.yaml", line 22, column 7: Unable to read file /config/zones.yaml.
+2020-01-16 20:12:19 ERROR (MainThread) [homeassistant.components.hassio] Error loading /config/configuration.yaml:   in "/config/configuration.yaml", line 22, column 7: Unable to read file /config/zones.yaml.

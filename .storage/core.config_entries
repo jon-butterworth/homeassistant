@@ -1,0 +1,121 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "track_home": true
+                },
+                "domain": "met",
+                "entry_id": "684e2bf117c34f809cd24dc4e72784b7",
+                "options": {},
+                "source": "onboarding",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Home",
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "bridge_id": "001788FFFE4E3423",
+                    "host": "192.168.178.38",
+                    "username": "eYh8hs6M91nS1tA4cSJP99lKJrjEB49-rkwrkmB4"
+                },
+                "domain": "hue",
+                "entry_id": "732bd00ca83840c29389fad576277e8c",
+                "options": {},
+                "source": "homekit",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Philips hue",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "eZJ5kWDQF1M:APA91bGTKFXl4u8j2abc7NAPCxyFtkgJhUAW4UP_Ox5UMZE3hYtMbpn4Pj0Ng8EtAA9LMTPMe364bBvIfFIYoNGG5IQ49T1RrBWo15hs_neyNZZnmJFvl9WE50et6q5nuwWn0h6gtJ8I",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_id": "io.robbie.HomeAssistant",
+                    "app_name": "Home Assistant",
+                    "app_version": "2.0.0 (69)",
+                    "device_id": "bb932832966c4e9989c61f3fb6be61da",
+                    "device_name": "iPhone",
+                    "manufacturer": "Apple",
+                    "model": "iPhone X\u0280",
+                    "os_name": "iOS",
+                    "os_version": "13.3",
+                    "secret": "8ed653094e7c16028cadf1a48c8b2d988f9fd17d84a4bf08bdabe7c4183c6a2c",
+                    "supports_encryption": true,
+                    "user_id": "eec9a95240314fcd955f4cf33cc0befc",
+                    "webhook_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72"
+                },
+                "domain": "mobile_app",
+                "entry_id": "17195ca7c2c44eeeb323e7183a0b23c7",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "iPhone",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "dyKcobgqB1k:APA91bHUkfVFQUW6Mj6SIzrt5NpnmO0CzCfvyHtUfdW4R21jdDKvDzn5ZJsNC6B0vWHUXriRnwCPCDcVAhvwTts3N-sJEUgQ6hmV766GIBFXz132i_ehNS0wPM6ADjmDcWL_rh6oqi9Y",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_id": "io.robbie.HomeAssistant",
+                    "app_name": "Home Assistant",
+                    "app_version": "2.0.0 (69)",
+                    "device_id": "e7b4e3469d10445d80a8b1a72c6ab7da",
+                    "device_name": "Jon\u2019s iPhone",
+                    "manufacturer": "Apple",
+                    "model": "iPhone X",
+                    "os_name": "iOS",
+                    "os_version": "13.3",
+                    "secret": "9ad53d0678bc006c016e69954c787c8383c7d9431a87393a4ad0c49608368fd1",
+                    "supports_encryption": true,
+                    "user_id": "0db7275c0cf546378e73cd18e1cc3287",
+                    "webhook_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe"
+                },
+                "domain": "mobile_app",
+                "entry_id": "7823803f538949feb50bf0e7cdb5259a",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Jon\u2019s iPhone",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "broker": "core-mosquitto",
+                    "discovery": false,
+                    "password": "Casperdog2018!",
+                    "port": 1883,
+                    "username": "mqtt"
+                },
+                "domain": "mqtt",
+                "entry_id": "c38edd1160ca4584a05d04a012fe6e3c",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "core-mosquitto",
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}

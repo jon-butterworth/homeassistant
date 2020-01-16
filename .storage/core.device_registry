@@ -1,0 +1,298 @@
+{
+    "data": {
+        "devices": [
+            {
+                "area_id": null,
+                "config_entries": [
+                    "732bd00ca83840c29389fad576277e8c"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:4e:34:23"
+                    ]
+                ],
+                "id": "8d88785cb4e146af97af58b3a3f7fe46",
+                "identifiers": [
+                    [
+                        "hue",
+                        "001788FFFE4E3423"
+                    ]
+                ],
+                "manufacturer": "Signify",
+                "model": "BSB002",
+                "name": "Philips hue",
+                "name_by_user": null,
+                "sw_version": "1935144020",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "732bd00ca83840c29389fad576277e8c"
+                ],
+                "connections": [],
+                "id": "3c05f141380d49fd8f33b3eda3fdcfed",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:03:f7:85:64-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue lightstrip plus",
+                "name": "TV Unit Lighstrip",
+                "name_by_user": null,
+                "sw_version": "1.46.13_r26312",
+                "via_device_id": "8d88785cb4e146af97af58b3a3f7fe46"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "732bd00ca83840c29389fad576277e8c"
+                ],
+                "connections": [],
+                "id": "e5509055245642b4b018921f92e2e727",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:47:44:6e-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue color lamp",
+                "name": "Landing Light",
+                "name_by_user": null,
+                "sw_version": "1.46.13_r26312",
+                "via_device_id": "8d88785cb4e146af97af58b3a3f7fe46"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "732bd00ca83840c29389fad576277e8c"
+                ],
+                "connections": [],
+                "id": "f2de29028a35443fa6a24b737917291f",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:04:7a:b5:02-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue go",
+                "name": "Hue go 1",
+                "name_by_user": null,
+                "sw_version": "5.127.1.26420",
+                "via_device_id": "8d88785cb4e146af97af58b3a3f7fe46"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "732bd00ca83840c29389fad576277e8c"
+                ],
+                "connections": [],
+                "id": "d18d376c1aa94186b85e0aaef496f43a",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:04:2f:9e:08-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue play",
+                "name": "Tv rear",
+                "name_by_user": null,
+                "sw_version": "1.46.13_r26312",
+                "via_device_id": "8d88785cb4e146af97af58b3a3f7fe46"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "732bd00ca83840c29389fad576277e8c"
+                ],
+                "connections": [],
+                "id": "05de8e29c1454703ac6316ac829b939b",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:3d:45:d5-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue color lamp",
+                "name": "Jons Office Light",
+                "name_by_user": null,
+                "sw_version": "1.46.13_r26312",
+                "via_device_id": "8d88785cb4e146af97af58b3a3f7fe46"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "732bd00ca83840c29389fad576277e8c"
+                ],
+                "connections": [],
+                "id": "5de1c37d83c34f85af02056f8b66f18c",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:3d:42:ac-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue color lamp",
+                "name": "Hue color lamp 3",
+                "name_by_user": null,
+                "sw_version": "1.46.13_r26312",
+                "via_device_id": "8d88785cb4e146af97af58b3a3f7fe46"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "732bd00ca83840c29389fad576277e8c"
+                ],
+                "connections": [],
+                "id": "a40bbf71db5c41b19186881267d98a91",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:04:87:c1:2d-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue color lamp",
+                "name": "Living room lamp",
+                "name_by_user": null,
+                "sw_version": "1.46.13_r26312",
+                "via_device_id": "8d88785cb4e146af97af58b3a3f7fe46"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "732bd00ca83840c29389fad576277e8c"
+                ],
+                "connections": [],
+                "id": "a7b9f4bcfb064f0daab3a1f743a03de6",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:ac:fc:ad-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue lightstrip plus",
+                "name": "TV Lightstrip",
+                "name_by_user": null,
+                "sw_version": "5.127.1.26420",
+                "via_device_id": "8d88785cb4e146af97af58b3a3f7fe46"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "732bd00ca83840c29389fad576277e8c"
+                ],
+                "connections": [],
+                "id": "21c97b8fadac4971b7e3007e870fe9eb",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:04:74:3f:96-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue white lamp",
+                "name": "Hallway Light 2",
+                "name_by_user": null,
+                "sw_version": "1.29.0_r21169",
+                "via_device_id": "8d88785cb4e146af97af58b3a3f7fe46"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "732bd00ca83840c29389fad576277e8c"
+                ],
+                "connections": [],
+                "id": "7d77fb098a36472cb65c8a5688c426bc",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:04:74:3f:95-0b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "Hue white lamp",
+                "name": "Hallway light 1",
+                "name_by_user": null,
+                "sw_version": "1.29.0_r21169",
+                "via_device_id": "8d88785cb4e146af97af58b3a3f7fe46"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "17195ca7c2c44eeeb323e7183a0b23c7"
+                ],
+                "connections": [],
+                "id": "252b27463b82413088ef16563f1e901f",
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "bb932832966c4e9989c61f3fb6be61da"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone X\u0280",
+                "name": "iPhone",
+                "name_by_user": null,
+                "sw_version": "13.3",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "7823803f538949feb50bf0e7cdb5259a"
+                ],
+                "connections": [],
+                "id": "4bd0314630bf4163839f47fefbbc1bf1",
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "e7b4e3469d10445d80a8b1a72c6ab7da"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone X",
+                "name": "Jon\u2019s iPhone",
+                "name_by_user": null,
+                "sw_version": "13.3",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "f2d58465f91a4df1b25ecfa178938d12"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "84:0d:8e:66:0f:02"
+                    ]
+                ],
+                "id": "b4d6d431c02d413d8a90d2b9311bfd9c",
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "660F02"
+                    ]
+                ],
+                "manufacturer": "Tasmota",
+                "model": "Sonoff Bridge",
+                "name": "Tasmota",
+                "name_by_user": null,
+                "sw_version": "8.1.0(tasmota)",
+                "via_device_id": null
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

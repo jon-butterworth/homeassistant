@@ -1,0 +1,219 @@
+{
+    "data": {
+        "credentials": [
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "jon"
+                },
+                "id": "68560f4569b34021a544f1765d62d4b3",
+                "user_id": "0db7275c0cf546378e73cd18e1cc3287"
+            },
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "natasha"
+                },
+                "id": "11e93e5445ff4ab78f5d3f27a98e1b34",
+                "user_id": "eec9a95240314fcd955f4cf33cc0befc"
+            },
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "mqtt"
+                },
+                "id": "536c08ee94f047eb97ef493b8317a05a",
+                "user_id": "340d2aadd2484d7d9d8d67c4ba0b41ac"
+            }
+        ],
+        "groups": [
+            {
+                "id": "system-admin",
+                "name": "Administrators"
+            },
+            {
+                "id": "system-users",
+                "name": "Users"
+            },
+            {
+                "id": "system-read-only",
+                "name": "Read Only"
+            }
+        ],
+        "refresh_tokens": [
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": null,
+                "client_name": null,
+                "created_at": "2020-01-12T19:41:48.584375+00:00",
+                "id": "7560ae071fdd44c5abd5828a36deac82",
+                "jwt_key": "1f5c3d609f2e0e3fcb0c6c696049e6716434992f7b1b15fed9d857e30a37a731bed0bcdf04fc238108eaa51979a86f781f4423cf279485cc3aa0338c1968f32e",
+                "last_used_at": "2020-01-16T19:52:15.905560+00:00",
+                "last_used_ip": "172.30.32.2",
+                "token": "98338e9d4d97b73cd57e1da53287d5e68e7d5a837d5fedae37989cfb5bdbd1044c7bc68d0f01bf77a522ba6a22a12a137eab91fd99adddec04a2721082365554",
+                "token_type": "system",
+                "user_id": "31182c0ace224ddda9e31ad8ba17c928"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.178.82:8123/",
+                "client_name": null,
+                "created_at": "2020-01-12T19:47:40.387154+00:00",
+                "id": "7a25a74a3da94a3685ce73be839aa9e3",
+                "jwt_key": "020197acaf36440aebf19da290f908c40e0d98f352a5cfc37f85f03184215b9b2e05c7da879dec0a47116ecaa0aa9cb65f866267cb7c923f96bce2ce9b130447",
+                "last_used_at": "2020-01-15T18:14:05.278561+00:00",
+                "last_used_ip": "192.168.178.70",
+                "token": "7d6ccbbe613834f9a3ba1b7ab5d499804a98ae0585f343030e69300d24583788f655aebdf111cab7e146ac17430e1bbefe393b272aec99bc47fcd24946fc2433",
+                "token_type": "normal",
+                "user_id": "0db7275c0cf546378e73cd18e1cc3287"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://hassio.local:8123/",
+                "client_name": null,
+                "created_at": "2020-01-13T16:19:18.116395+00:00",
+                "id": "085ca33bc50640a3880decc4b67cce0f",
+                "jwt_key": "78ff4028f86038de8a33255d6f3fdb052f4ffe77c8c0b2d570e9b8e92078c390cfa0e0adb33fee2a84f05cf7681a0d8003fe306556694e4cb283d839eb6bee3b",
+                "last_used_at": "2020-01-15T17:29:24.281917+00:00",
+                "last_used_ip": "192.168.178.70",
+                "token": "5d1f680b9fe6bbb46b4229d0748fa97d1f870c904279d3a0d88461505298ea73c9d943876823908536fa6509ca1d73eaa875a0ef83860cf1a12d785464ae465b",
+                "token_type": "normal",
+                "user_id": "0db7275c0cf546378e73cd18e1cc3287"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://hassio.local:8123/",
+                "client_name": null,
+                "created_at": "2020-01-14T09:20:59.001556+00:00",
+                "id": "e3b69ca978e84c859e1f9235824d3ce9",
+                "jwt_key": "c7c44a289f6ab8ddfa7cdc6c641c862a8dd1a0c7b31eabf504035e614aae4ee030a25b2f5384d30c98e48c1e03a3ed3ef0cd79163cae3ebdb2ea6a15ac2deec2",
+                "last_used_at": "2020-01-14T10:42:24.922762+00:00",
+                "last_used_ip": "192.168.178.68",
+                "token": "95335716f07bfeee247caeea34f3a64e33a8233d68b2fdf5a2f82433cc54725e06035278f8c53190856c890930d6c6e2d7b133c6cbe9236943a09102d97a3ca0",
+                "token_type": "normal",
+                "user_id": "0db7275c0cf546378e73cd18e1cc3287"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://butterworths.duckdns.org:8123/",
+                "client_name": null,
+                "created_at": "2020-01-14T10:42:52.720538+00:00",
+                "id": "3dc7001252c549c2a43069084a3bf6d4",
+                "jwt_key": "89d2f3d0c422ba935045edd1f999c3c73717ad09952144a7ed892859b552e4bb67073caf20c2c48a8153e11c14d66969bfc47fb57f279046f6004d4af8c90573",
+                "last_used_at": "2020-01-14T16:53:23.109933+00:00",
+                "last_used_ip": "82.71.59.204",
+                "token": "6eec5fb58cf42cd23d7749ebf32dfc35bed8a06e3e1b6bae0495520c5d5fa4f14fb7f3430be174202ecc388698bff96ffbbc2e1e684c0408db41790806a8f472",
+                "token_type": "normal",
+                "user_id": "0db7275c0cf546378e73cd18e1cc3287"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://home-assistant.io/iOS",
+                "client_name": null,
+                "created_at": "2020-01-14T14:16:12.370304+00:00",
+                "id": "e2fedb6c9a8b4da6b8aa9e80bcefb7bd",
+                "jwt_key": "dfb573a99deca0302a8d715d463c6192892c3ad5fc42b93c875dfcc4424ddc5b6a204c6df1b0307954ce94414878f870499ad8c397dd93d47c4e670920956396",
+                "last_used_at": "2020-01-16T16:37:36.359742+00:00",
+                "last_used_ip": "192.168.178.77",
+                "token": "63d057649535436f8c9174c1b854e13678960af68cda48e36837a4d54ec6b6d711bb002d07f4863bea1933b3f76dcacd4c4cd6510a671f20c7a70e156943076b",
+                "token_type": "normal",
+                "user_id": "0db7275c0cf546378e73cd18e1cc3287"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://butterworths.duckdns.org/",
+                "client_name": null,
+                "created_at": "2020-01-15T08:07:55.703386+00:00",
+                "id": "63832433bd98454d93d2b6b037b98468",
+                "jwt_key": "fd3f6492f8fc9d851db1bc57bed69021342a687681b231836cf6cc2148b2df1cc8f626f68abe49d16ebf80f2b60388e515e76e2f333f53132a88a18cddc6a408",
+                "last_used_at": "2020-01-16T18:35:10.208266+00:00",
+                "last_used_ip": "82.71.59.204",
+                "token": "5de2a9cd60ab55f80769a43dddb156e82e4969ac09e837544132dc04c46bbc5f90676e212e9714613d1695667e69581f63742500fb11fcdaabf577ad7375ffad",
+                "token_type": "normal",
+                "user_id": "0db7275c0cf546378e73cd18e1cc3287"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://butterworths.duckdns.org/",
+                "client_name": null,
+                "created_at": "2020-01-15T17:57:19.408959+00:00",
+                "id": "6945e7c2263c4d1ab63e35fc4dc3abe8",
+                "jwt_key": "1e739abca9fad4078962c1ebf31f1f28b242d7be7309a095203581d9c24d63eb1c63aa70d06e62f9bbb958caab68926e87c09d4ef0d26a6added973ff3347611",
+                "last_used_at": "2020-01-16T19:49:35.951477+00:00",
+                "last_used_ip": "82.71.59.204",
+                "token": "bae592ac9ab7a40df90c8aada280f3fc320410f030ca146b643475739e9cb7aa361cbdc80654075abfa62c561c7f415787770694ed5a881c5ca0c809a7353a46",
+                "token_type": "normal",
+                "user_id": "0db7275c0cf546378e73cd18e1cc3287"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://home-assistant.io/iOS",
+                "client_name": null,
+                "created_at": "2020-01-13T17:10:52.214009+00:00",
+                "id": "ffd94165dffe4218816056ca2d9ac059",
+                "jwt_key": "4538aed08a30c5349429d5eb4bea8252829d7bc4a5393975b0a5c6873dbd72684c85bc4351e944512d5b3401aa54f329c3df4d8691e95452883d40b0d9ad4cb4",
+                "last_used_at": "2020-01-16T18:45:50.465310+00:00",
+                "last_used_ip": "82.71.59.204",
+                "token": "173337ee407edae228bd8cf957da1354889e6e414b75de2b7e8b00aa70991782c81b3e38c3b4164592ab684d083b41a4d0698b5dfb7e926decd71a96963ba77e",
+                "token_type": "normal",
+                "user_id": "eec9a95240314fcd955f4cf33cc0befc"
+            }
+        ],
+        "users": [
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "31182c0ace224ddda9e31ad8ba17c928",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Hass.io",
+                "system_generated": true
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "0db7275c0cf546378e73cd18e1cc3287",
+                "is_active": true,
+                "is_owner": true,
+                "name": "Jon Butterworth",
+                "system_generated": false
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "eec9a95240314fcd955f4cf33cc0befc",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Natasha Sellick",
+                "system_generated": false
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "340d2aadd2484d7d9d8d67c4ba0b41ac",
+                "is_active": true,
+                "is_owner": false,
+                "name": "mqtt",
+                "system_generated": false
+            }
+        ]
+    },
+    "key": "auth",
+    "version": 1
+}

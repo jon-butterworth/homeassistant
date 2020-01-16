@@ -1,0 +1,14 @@
+{
+    "data": {
+        "persons": [
+            {
+                "device_trackers": [],
+                "id": "79fe026252bb4dc0b63f2ebfcc89945b",
+                "name": "Jon Butterworth",
+                "user_id": "0db7275c0cf546378e73cd18e1cc3287"
+            }
+        ]
+    },
+    "key": "person",
+    "version": 1
+}
