@@ -2,409 +2,658 @@
     "data": {
         "entities": [
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": null,
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "binary_sensor.updater",
                 "name": null,
                 "platform": "updater",
-                "unique_id": "updater"
+                "supported_features": 0,
+                "unique_id": "updater",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": null,
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "person.jon_butterworth",
                 "name": null,
                 "platform": "person",
-                "unique_id": "79fe026252bb4dc0b63f2ebfcc89945b"
+                "supported_features": 0,
+                "unique_id": "79fe026252bb4dc0b63f2ebfcc89945b",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "684e2bf117c34f809cd24dc4e72784b7",
+                "device_class": null,
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "weather.home",
                 "name": null,
                 "platform": "met",
-                "unique_id": "home"
+                "supported_features": 0,
+                "unique_id": "home",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {
+                    "effect_list": [
+                        "colorloop",
+                        "random"
+                    ],
+                    "max_mireds": 500,
+                    "min_mireds": 153
+                },
                 "config_entry_id": "732bd00ca83840c29389fad576277e8c",
+                "device_class": null,
                 "device_id": "3c05f141380d49fd8f33b3eda3fdcfed",
                 "disabled_by": null,
                 "entity_id": "light.tv_unit_lighstrip",
                 "name": null,
                 "platform": "hue",
-                "unique_id": "00:17:88:01:03:f7:85:64-0b"
+                "supported_features": 63,
+                "unique_id": "00:17:88:01:03:f7:85:64-0b",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {
+                    "effect_list": [
+                        "colorloop",
+                        "random"
+                    ],
+                    "max_mireds": 500,
+                    "min_mireds": 153
+                },
                 "config_entry_id": "732bd00ca83840c29389fad576277e8c",
+                "device_class": null,
                 "device_id": "e5509055245642b4b018921f92e2e727",
                 "disabled_by": null,
                 "entity_id": "light.hue_color_lamp_1",
                 "name": null,
                 "platform": "hue",
-                "unique_id": "00:17:88:01:02:47:44:6e-0b"
+                "supported_features": 63,
+                "unique_id": "00:17:88:01:02:47:44:6e-0b",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {
+                    "effect_list": [
+                        "colorloop",
+                        "random"
+                    ],
+                    "max_mireds": 500,
+                    "min_mireds": 153
+                },
                 "config_entry_id": "732bd00ca83840c29389fad576277e8c",
+                "device_class": null,
                 "device_id": "f2de29028a35443fa6a24b737917291f",
                 "disabled_by": null,
                 "entity_id": "light.hue_go_1",
                 "name": null,
                 "platform": "hue",
-                "unique_id": "00:17:88:01:04:7a:b5:02-0b"
+                "supported_features": 63,
+                "unique_id": "00:17:88:01:04:7a:b5:02-0b",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {
+                    "effect_list": [
+                        "colorloop",
+                        "random"
+                    ],
+                    "max_mireds": 500,
+                    "min_mireds": 153
+                },
                 "config_entry_id": "732bd00ca83840c29389fad576277e8c",
+                "device_class": null,
                 "device_id": "d18d376c1aa94186b85e0aaef496f43a",
                 "disabled_by": null,
                 "entity_id": "light.tv_rear",
                 "name": null,
                 "platform": "hue",
-                "unique_id": "00:17:88:01:04:2f:9e:08-0b"
+                "supported_features": 63,
+                "unique_id": "00:17:88:01:04:2f:9e:08-0b",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {
+                    "effect_list": [
+                        "colorloop",
+                        "random"
+                    ],
+                    "max_mireds": 500,
+                    "min_mireds": 153
+                },
                 "config_entry_id": "732bd00ca83840c29389fad576277e8c",
+                "device_class": null,
                 "device_id": "05de8e29c1454703ac6316ac829b939b",
                 "disabled_by": null,
                 "entity_id": "light.hue_color_lamp_2",
                 "name": null,
                 "platform": "hue",
-                "unique_id": "00:17:88:01:02:3d:45:d5-0b"
+                "supported_features": 63,
+                "unique_id": "00:17:88:01:02:3d:45:d5-0b",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {
+                    "effect_list": [
+                        "colorloop",
+                        "random"
+                    ],
+                    "max_mireds": 500,
+                    "min_mireds": 153
+                },
                 "config_entry_id": "732bd00ca83840c29389fad576277e8c",
+                "device_class": null,
                 "device_id": "5de1c37d83c34f85af02056f8b66f18c",
                 "disabled_by": null,
                 "entity_id": "light.hue_color_lamp_3",
                 "name": null,
                 "platform": "hue",
-                "unique_id": "00:17:88:01:02:3d:42:ac-0b"
+                "supported_features": 63,
+                "unique_id": "00:17:88:01:02:3d:42:ac-0b",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {
+                    "effect_list": [
+                        "colorloop",
+                        "random"
+                    ],
+                    "max_mireds": 500,
+                    "min_mireds": 153
+                },
                 "config_entry_id": "732bd00ca83840c29389fad576277e8c",
+                "device_class": null,
                 "device_id": "a40bbf71db5c41b19186881267d98a91",
                 "disabled_by": null,
                 "entity_id": "light.living_room_lamp",
                 "name": null,
                 "platform": "hue",
-                "unique_id": "00:17:88:01:04:87:c1:2d-0b"
+                "supported_features": 63,
+                "unique_id": "00:17:88:01:04:87:c1:2d-0b",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {
+                    "effect_list": [
+                        "colorloop",
+                        "random"
+                    ],
+                    "max_mireds": 500,
+                    "min_mireds": 153
+                },
                 "config_entry_id": "732bd00ca83840c29389fad576277e8c",
+                "device_class": null,
                 "device_id": "a7b9f4bcfb064f0daab3a1f743a03de6",
                 "disabled_by": null,
                 "entity_id": "light.tv_lightstrip",
                 "name": null,
                 "platform": "hue",
-                "unique_id": "00:17:88:01:02:ac:fc:ad-0b"
+                "supported_features": 63,
+                "unique_id": "00:17:88:01:02:ac:fc:ad-0b",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "732bd00ca83840c29389fad576277e8c",
+                "device_class": null,
                 "device_id": "21c97b8fadac4971b7e3007e870fe9eb",
                 "disabled_by": null,
                 "entity_id": "light.hue_white_lamp_1",
                 "name": null,
                 "platform": "hue",
-                "unique_id": "00:17:88:01:04:74:3f:96-0b"
+                "supported_features": 41,
+                "unique_id": "00:17:88:01:04:74:3f:96-0b",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "732bd00ca83840c29389fad576277e8c",
+                "device_class": null,
                 "device_id": "7d77fb098a36472cb65c8a5688c426bc",
                 "disabled_by": null,
                 "entity_id": "light.hue_white_lamp_2",
                 "name": null,
                 "platform": "hue",
-                "unique_id": "00:17:88:01:04:74:3f:95-0b"
+                "supported_features": 41,
+                "unique_id": "00:17:88:01:04:74:3f:95-0b",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "17195ca7c2c44eeeb323e7183a0b23c7",
+                "device_class": null,
                 "device_id": "252b27463b82413088ef16563f1e901f",
                 "disabled_by": null,
                 "entity_id": "device_tracker.iphone",
                 "name": "Natasha",
                 "platform": "mobile_app",
-                "unique_id": "bb932832966c4e9989c61f3fb6be61da"
+                "supported_features": 0,
+                "unique_id": "bb932832966c4e9989c61f3fb6be61da",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "17195ca7c2c44eeeb323e7183a0b23c7",
+                "device_class": null,
                 "device_id": "252b27463b82413088ef16563f1e901f",
                 "disabled_by": null,
                 "entity_id": "sensor.activity",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_activity"
+                "supported_features": 0,
+                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_activity",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "17195ca7c2c44eeeb323e7183a0b23c7",
+                "device_class": "battery",
                 "device_id": "252b27463b82413088ef16563f1e901f",
                 "disabled_by": null,
                 "entity_id": "sensor.battery_level",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_battery_level"
+                "supported_features": 0,
+                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_battery_level",
+                "unit_of_measurement": "%"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "17195ca7c2c44eeeb323e7183a0b23c7",
+                "device_class": "battery",
                 "device_id": "252b27463b82413088ef16563f1e901f",
                 "disabled_by": null,
                 "entity_id": "sensor.battery_state",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_battery_state"
+                "supported_features": 0,
+                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_battery_state",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "17195ca7c2c44eeeb323e7183a0b23c7",
+                "device_class": null,
                 "device_id": "252b27463b82413088ef16563f1e901f",
                 "disabled_by": null,
                 "entity_id": "sensor.average_active_pace",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_pedometer_avg_active_pace"
+                "supported_features": 0,
+                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_pedometer_avg_active_pace",
+                "unit_of_measurement": "m/s"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "17195ca7c2c44eeeb323e7183a0b23c7",
+                "device_class": null,
                 "device_id": "252b27463b82413088ef16563f1e901f",
                 "disabled_by": null,
                 "entity_id": "sensor.distance",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_pedometer_distance"
+                "supported_features": 0,
+                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_pedometer_distance",
+                "unit_of_measurement": "m"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "17195ca7c2c44eeeb323e7183a0b23c7",
+                "device_class": null,
                 "device_id": "252b27463b82413088ef16563f1e901f",
                 "disabled_by": null,
                 "entity_id": "sensor.floors_ascended",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_pedometer_floors_ascended"
+                "supported_features": 0,
+                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_pedometer_floors_ascended",
+                "unit_of_measurement": "floors"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "17195ca7c2c44eeeb323e7183a0b23c7",
+                "device_class": null,
                 "device_id": "252b27463b82413088ef16563f1e901f",
                 "disabled_by": null,
                 "entity_id": "sensor.floors_descended",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_pedometer_floors_descended"
+                "supported_features": 0,
+                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_pedometer_floors_descended",
+                "unit_of_measurement": "floors"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "17195ca7c2c44eeeb323e7183a0b23c7",
+                "device_class": null,
                 "device_id": "252b27463b82413088ef16563f1e901f",
                 "disabled_by": null,
                 "entity_id": "sensor.steps",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_pedometer_steps"
+                "supported_features": 0,
+                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_pedometer_steps",
+                "unit_of_measurement": "steps"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "17195ca7c2c44eeeb323e7183a0b23c7",
+                "device_class": null,
                 "device_id": "252b27463b82413088ef16563f1e901f",
                 "disabled_by": null,
                 "entity_id": "sensor.bssid",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_connectivity_bssid"
+                "supported_features": 0,
+                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_connectivity_bssid",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "17195ca7c2c44eeeb323e7183a0b23c7",
+                "device_class": null,
                 "device_id": "252b27463b82413088ef16563f1e901f",
                 "disabled_by": null,
                 "entity_id": "sensor.connection_type",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_connectivity_connection_type"
+                "supported_features": 0,
+                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_connectivity_connection_type",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "17195ca7c2c44eeeb323e7183a0b23c7",
+                "device_class": null,
                 "device_id": "252b27463b82413088ef16563f1e901f",
                 "disabled_by": null,
                 "entity_id": "sensor.ssid",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_connectivity_ssid"
+                "supported_features": 0,
+                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_connectivity_ssid",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "17195ca7c2c44eeeb323e7183a0b23c7",
+                "device_class": null,
                 "device_id": "252b27463b82413088ef16563f1e901f",
                 "disabled_by": null,
                 "entity_id": "sensor.sim_1",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_connectivity_sim_1"
+                "supported_features": 0,
+                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_connectivity_sim_1",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "17195ca7c2c44eeeb323e7183a0b23c7",
+                "device_class": null,
                 "device_id": "252b27463b82413088ef16563f1e901f",
                 "disabled_by": null,
                 "entity_id": "sensor.geocoded_location",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_geocoded_location"
+                "supported_features": 0,
+                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_geocoded_location",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "17195ca7c2c44eeeb323e7183a0b23c7",
+                "device_class": null,
                 "device_id": "252b27463b82413088ef16563f1e901f",
                 "disabled_by": null,
                 "entity_id": "sensor.last_update_trigger",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_last_update_trigger"
+                "supported_features": 0,
+                "unique_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_last_update_trigger",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "7823803f538949feb50bf0e7cdb5259a",
+                "device_class": null,
                 "device_id": "4bd0314630bf4163839f47fefbbc1bf1",
                 "disabled_by": null,
                 "entity_id": "device_tracker.jons_iphone",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "e7b4e3469d10445d80a8b1a72c6ab7da"
+                "supported_features": 0,
+                "unique_id": "e7b4e3469d10445d80a8b1a72c6ab7da",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "7823803f538949feb50bf0e7cdb5259a",
+                "device_class": null,
                 "device_id": "4bd0314630bf4163839f47fefbbc1bf1",
                 "disabled_by": null,
                 "entity_id": "sensor.activity_2",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_activity"
+                "supported_features": 0,
+                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_activity",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "7823803f538949feb50bf0e7cdb5259a",
+                "device_class": "battery",
                 "device_id": "4bd0314630bf4163839f47fefbbc1bf1",
                 "disabled_by": null,
                 "entity_id": "sensor.battery_level_2",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_battery_level"
+                "supported_features": 0,
+                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_battery_level",
+                "unit_of_measurement": "%"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "7823803f538949feb50bf0e7cdb5259a",
+                "device_class": "battery",
                 "device_id": "4bd0314630bf4163839f47fefbbc1bf1",
                 "disabled_by": null,
                 "entity_id": "sensor.battery_state_2",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_battery_state"
+                "supported_features": 0,
+                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_battery_state",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "7823803f538949feb50bf0e7cdb5259a",
+                "device_class": null,
                 "device_id": "4bd0314630bf4163839f47fefbbc1bf1",
                 "disabled_by": null,
                 "entity_id": "sensor.average_active_pace_2",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_pedometer_avg_active_pace"
+                "supported_features": 0,
+                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_pedometer_avg_active_pace",
+                "unit_of_measurement": "m/s"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "7823803f538949feb50bf0e7cdb5259a",
+                "device_class": null,
                 "device_id": "4bd0314630bf4163839f47fefbbc1bf1",
                 "disabled_by": null,
                 "entity_id": "sensor.distance_2",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_pedometer_distance"
+                "supported_features": 0,
+                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_pedometer_distance",
+                "unit_of_measurement": "m"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "7823803f538949feb50bf0e7cdb5259a",
+                "device_class": null,
                 "device_id": "4bd0314630bf4163839f47fefbbc1bf1",
                 "disabled_by": null,
                 "entity_id": "sensor.steps_2",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_pedometer_steps"
+                "supported_features": 0,
+                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_pedometer_steps",
+                "unit_of_measurement": "steps"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "7823803f538949feb50bf0e7cdb5259a",
+                "device_class": null,
                 "device_id": "4bd0314630bf4163839f47fefbbc1bf1",
                 "disabled_by": null,
                 "entity_id": "sensor.floors_ascended_2",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_pedometer_floors_ascended"
+                "supported_features": 0,
+                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_pedometer_floors_ascended",
+                "unit_of_measurement": "floors"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "7823803f538949feb50bf0e7cdb5259a",
+                "device_class": null,
                 "device_id": "4bd0314630bf4163839f47fefbbc1bf1",
                 "disabled_by": null,
                 "entity_id": "sensor.floors_descended_2",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_pedometer_floors_descended"
+                "supported_features": 0,
+                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_pedometer_floors_descended",
+                "unit_of_measurement": "floors"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "7823803f538949feb50bf0e7cdb5259a",
+                "device_class": null,
                 "device_id": "4bd0314630bf4163839f47fefbbc1bf1",
                 "disabled_by": null,
                 "entity_id": "sensor.bssid_2",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_connectivity_bssid"
+                "supported_features": 0,
+                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_connectivity_bssid",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "7823803f538949feb50bf0e7cdb5259a",
+                "device_class": null,
                 "device_id": "4bd0314630bf4163839f47fefbbc1bf1",
                 "disabled_by": null,
                 "entity_id": "sensor.ssid_2",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_connectivity_ssid"
+                "supported_features": 0,
+                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_connectivity_ssid",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "7823803f538949feb50bf0e7cdb5259a",
+                "device_class": null,
                 "device_id": "4bd0314630bf4163839f47fefbbc1bf1",
                 "disabled_by": null,
                 "entity_id": "sensor.connection_type_2",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_connectivity_connection_type"
+                "supported_features": 0,
+                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_connectivity_connection_type",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "7823803f538949feb50bf0e7cdb5259a",
+                "device_class": null,
                 "device_id": "4bd0314630bf4163839f47fefbbc1bf1",
                 "disabled_by": null,
                 "entity_id": "sensor.sim_1_2",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_connectivity_sim_1"
+                "supported_features": 0,
+                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_connectivity_sim_1",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "7823803f538949feb50bf0e7cdb5259a",
+                "device_class": null,
                 "device_id": "4bd0314630bf4163839f47fefbbc1bf1",
                 "disabled_by": null,
                 "entity_id": "sensor.last_update_trigger_2",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_last_update_trigger"
+                "supported_features": 0,
+                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_last_update_trigger",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "7823803f538949feb50bf0e7cdb5259a",
+                "device_class": null,
                 "device_id": "4bd0314630bf4163839f47fefbbc1bf1",
                 "disabled_by": null,
                 "entity_id": "sensor.geocoded_location_2",
                 "name": null,
                 "platform": "mobile_app",
-                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_geocoded_location"
+                "supported_features": 0,
+                "unique_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_geocoded_location",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "f2d58465f91a4df1b25ecfa178938d12",
+                "device_class": null,
                 "device_id": "b4d6d431c02d413d8a90d2b9311bfd9c",
                 "disabled_by": null,
                 "entity_id": "binary_sensor.tasmota_button1",
                 "name": null,
                 "platform": "mqtt",
-                "unique_id": "660F02_BTN_1"
+                "supported_features": 0,
+                "unique_id": "660F02_BTN_1",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "f2d58465f91a4df1b25ecfa178938d12",
+                "device_class": null,
                 "device_id": "b4d6d431c02d413d8a90d2b9311bfd9c",
                 "disabled_by": null,
                 "entity_id": "sensor.tasmota_status",
                 "name": null,
                 "platform": "mqtt",
-                "unique_id": "660F02_status"
+                "supported_features": 0,
+                "unique_id": "660F02_status",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": "2bd93ef9f3a5457da9b8e5f1602a43a6",
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.hacs",
+                "name": null,
+                "platform": "hacs",
+                "supported_features": 0,
+                "unique_id": "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd",
+                "unit_of_measurement": "pending update(s)"
             }
         ]
     },

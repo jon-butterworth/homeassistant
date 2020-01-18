@@ -14,6 +14,7 @@
                     "disable_new_entities": false
                 },
                 "title": "Home",
+                "unique_id": null,
                 "version": 1
             },
             {
@@ -31,6 +32,7 @@
                     "disable_new_entities": false
                 },
                 "title": "Philips hue",
+                "unique_id": "0017884e3423",
                 "version": 1
             },
             {
@@ -62,6 +64,7 @@
                     "disable_new_entities": false
                 },
                 "title": "iPhone",
+                "unique_id": null,
                 "version": 1
             },
             {
@@ -93,6 +96,7 @@
                     "disable_new_entities": false
                 },
                 "title": "Jon\u2019s iPhone",
+                "unique_id": null,
                 "version": 1
             },
             {
@@ -112,6 +116,42 @@
                     "disable_new_entities": false
                 },
                 "title": "core-mosquitto",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {},
+                "domain": "hue",
+                "entry_id": "7ec26523d1384ecf89b431b64d942ddb",
+                "options": {},
+                "source": "ignore",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Ignored",
+                "unique_id": "8cd8b9940138",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "appdaemon": false,
+                    "python_script": false,
+                    "sidepanel_icon": "mdi:alpha-c-box",
+                    "sidepanel_title": "Community",
+                    "theme": false,
+                    "token": "3e0e79f0680e678f4cc1da20eca857a93dc12bd3"
+                },
+                "domain": "hacs",
+                "entry_id": "2bd93ef9f3a5457da9b8e5f1602a43a6",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "",
+                "unique_id": null,
                 "version": 1
             }
         ]

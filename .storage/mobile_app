@@ -8,12 +8,12 @@
                 "attributes": {
                     "Confidence": "High",
                     "Types": [
-                        "Walking"
+                        "Stationary"
                     ]
                 },
-                "icon": "mdi:walk",
+                "icon": "mdi:human-male",
                 "name": "Activity",
-                "state": "Walking",
+                "state": "Stationary",
                 "type": "sensor",
                 "unique_id": "activity",
                 "webhook_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe"
@@ -24,9 +24,9 @@
                     "Battery State": "Not Charging"
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-0",
+                "icon": "mdi:battery-80",
                 "name": "Battery Level",
-                "state": 9,
+                "state": 81,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -35,10 +35,10 @@
             "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe_battery_state": {
                 "added": true,
                 "attributes": {
-                    "Battery Level": 9
+                    "Battery Level": 81
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-0",
+                "icon": "mdi:battery-80",
                 "name": "Battery State",
                 "state": "Not Charging",
                 "type": "sensor",
@@ -105,8 +105,8 @@
                     "Inland Water": "N/A",
                     "Locality": "Dawlish",
                     "Location": [
-                        50.60024222914026,
-                        -3.46155235621557
+                        50.6002197265625,
+                        -3.461556499003005
                     ],
                     "Name": "13 Kestrel Way",
                     "Ocean": "N/A",
@@ -129,7 +129,7 @@
                 "attributes": {},
                 "icon": "mdi:cellphone-wireless",
                 "name": "Last Update Trigger",
-                "state": "Significant Location Change",
+                "state": "Background Fetch",
                 "type": "sensor",
                 "unique_id": "last_update_trigger",
                 "webhook_id": "49cbf91f61c527e8f38cc9c585ba991783e2e5dc0e30368706519ced4cfe8abe"
@@ -139,7 +139,7 @@
                 "attributes": {},
                 "icon": "mdi:speedometer",
                 "name": "Average Active Pace",
-                "state": 1,
+                "state": 2,
                 "type": "sensor",
                 "unique_id": "pedometer_avg_active_pace",
                 "unit_of_measurement": "m/s",
@@ -150,7 +150,7 @@
                 "attributes": {},
                 "icon": "mdi:hiking",
                 "name": "Distance",
-                "state": 1543,
+                "state": 168,
                 "type": "sensor",
                 "unique_id": "pedometer_distance",
                 "unit_of_measurement": "m",
@@ -161,7 +161,7 @@
                 "attributes": {},
                 "icon": "mdi:slope-uphill",
                 "name": "Floors Ascended",
-                "state": 6,
+                "state": 1,
                 "type": "sensor",
                 "unique_id": "pedometer_floors_ascended",
                 "unit_of_measurement": "floors",
@@ -172,7 +172,7 @@
                 "attributes": {},
                 "icon": "mdi:slope-downhill",
                 "name": "Floors Descended",
-                "state": 7,
+                "state": 2,
                 "type": "sensor",
                 "unique_id": "pedometer_floors_descended",
                 "unit_of_measurement": "floors",
@@ -183,7 +183,7 @@
                 "attributes": {},
                 "icon": "mdi:walk",
                 "name": "Steps",
-                "state": 2044,
+                "state": 275,
                 "type": "sensor",
                 "unique_id": "pedometer_steps",
                 "unit_of_measurement": "steps",
@@ -194,12 +194,12 @@
                 "attributes": {
                     "Confidence": "High",
                     "Types": [
-                        "Unknown"
+                        "Stationary"
                     ]
                 },
-                "icon": "mdi:help-circle",
+                "icon": "mdi:human-male",
                 "name": "Activity",
-                "state": "Unknown",
+                "state": "Stationary",
                 "type": "sensor",
                 "unique_id": "activity",
                 "webhook_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72"
@@ -207,12 +207,12 @@
             "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_battery_level": {
                 "added": true,
                 "attributes": {
-                    "Battery State": "Not Charging"
+                    "Battery State": "Charging"
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-50",
+                "icon": "mdi:battery-charging-80",
                 "name": "Battery Level",
-                "state": 57,
+                "state": 82,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -221,12 +221,12 @@
             "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72_battery_state": {
                 "added": true,
                 "attributes": {
-                    "Battery Level": 57
+                    "Battery Level": 82
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-50",
+                "icon": "mdi:battery-charging-80",
                 "name": "Battery State",
-                "state": "Not Charging",
+                "state": "Charging",
                 "type": "sensor",
                 "unique_id": "battery_state",
                 "webhook_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72"
@@ -291,21 +291,21 @@
                     "Inland Water": "N/A",
                     "Locality": "Dawlish",
                     "Location": [
-                        50.60028076171875,
-                        -3.461586805506657
+                        50.6002354291509,
+                        -3.461562826288967
                     ],
-                    "Name": "12 Kestrel Way",
+                    "Name": "13 Kestrel Way",
                     "Ocean": "N/A",
                     "Postal Code": "EX7 0FY",
                     "Sub Administrative Area": "Devon",
                     "Sub Locality": "N/A",
-                    "Sub Thoroughfare": "12",
+                    "Sub Thoroughfare": "13",
                     "Thoroughfare": "Kestrel Way",
                     "Time Zone": "Europe/London"
                 },
                 "icon": "mdi:map",
                 "name": "Geocoded Location",
-                "state": "12 Kestrel Way\nDawlish\nEngland\nEX7 0FY\nUnited Kingdom",
+                "state": "13 Kestrel Way\nDawlish\nEngland\nEX7 0FY\nUnited Kingdom",
                 "type": "sensor",
                 "unique_id": "geocoded_location",
                 "webhook_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72"
@@ -315,7 +315,7 @@
                 "attributes": {},
                 "icon": "mdi:cellphone-wireless",
                 "name": "Last Update Trigger",
-                "state": "Background Fetch",
+                "state": "Significant Location Change",
                 "type": "sensor",
                 "unique_id": "last_update_trigger",
                 "webhook_id": "96162b9c748d688b39f98b02f06ba932eba632b8495bb981b7053eaef0d6ea72"
@@ -336,7 +336,7 @@
                 "attributes": {},
                 "icon": "mdi:hiking",
                 "name": "Distance",
-                "state": 845,
+                "state": 0,
                 "type": "sensor",
                 "unique_id": "pedometer_distance",
                 "unit_of_measurement": "m",
@@ -347,7 +347,7 @@
                 "attributes": {},
                 "icon": "mdi:slope-uphill",
                 "name": "Floors Ascended",
-                "state": 3,
+                "state": 0,
                 "type": "sensor",
                 "unique_id": "pedometer_floors_ascended",
                 "unit_of_measurement": "floors",
@@ -358,7 +358,7 @@
                 "attributes": {},
                 "icon": "mdi:slope-downhill",
                 "name": "Floors Descended",
-                "state": 6,
+                "state": 0,
                 "type": "sensor",
                 "unique_id": "pedometer_floors_descended",
                 "unit_of_measurement": "floors",
@@ -369,7 +369,7 @@
                 "attributes": {},
                 "icon": "mdi:walk",
                 "name": "Steps",
-                "state": 1180,
+                "state": 0,
                 "type": "sensor",
                 "unique_id": "pedometer_steps",
                 "unit_of_measurement": "steps",

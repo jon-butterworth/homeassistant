@@ -203,7 +203,7 @@
                 "model": "Hue white lamp",
                 "name": "Hallway Light 2",
                 "name_by_user": null,
-                "sw_version": "1.29.0_r21169",
+                "sw_version": "1.46.13_r26312",
                 "via_device_id": "8d88785cb4e146af97af58b3a3f7fe46"
             },
             {
@@ -223,7 +223,7 @@
                 "model": "Hue white lamp",
                 "name": "Hallway light 1",
                 "name_by_user": null,
-                "sw_version": "1.29.0_r21169",
+                "sw_version": "1.46.13_r26312",
                 "via_device_id": "8d88785cb4e146af97af58b3a3f7fe46"
             },
             {

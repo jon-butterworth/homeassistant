@@ -23,13 +23,24 @@
     service: light.turn_on
     entity_id: light.office
 
-- alias: Office lights off
+- alias: 'Turn office lights off'
   trigger:
-    platform: state
-    entity_id: binary_sensor.office_motion
-    to: 'off'
-    for:
-      minutes: 5
+    - platform: state
+      entity_id: light.office
+      to: on
+      for: "00:05:00"
+    - platform: state
+      entity_id: light.office
+      to: on
+      for: "00:20:00"
+  condition:
+    condition: template
+    value_template: >
+      {%- set light_last_changed = as_timestamp(states.light.office.last_changed) -%}
+      {%- set day = now().hour < 17 and now().hour > 9 -%}
+      {%- set day_duration_in_sec = 60*5 -%}
+      {%- set evening_duration_in_sec = 60*20 -%}
+      {{- as_timestamp(now()) - light_last_changed > day_duration_in_sec if day else as_timestamp(now()) - light_last_changed > evening_duration_in_sec -}}
   action:
     service: light.turn_off
     entity_id: light.office

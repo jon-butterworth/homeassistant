@@ -1,62 +1,7 @@
 {
     "data": [
         {
-            "last_seen": "2020-01-16T21:07:32.005328+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Reset office PIR state",
-                    "hidden": true,
-                    "last_triggered": "2020-01-16T18:39:14.013049+00:00"
-                },
-                "context": {
-                    "id": "a1fc6ebb252f430bb6f2eaca17d5a098",
-                    "parent_id": "d26f92b95f3b4f61bcb493214a77ea2d",
-                    "user_id": null
-                },
-                "entity_id": "automation.reset_office_pir_state",
-                "last_changed": "2020-01-16T17:07:11.515297+00:00",
-                "last_updated": "2020-01-16T18:39:14.013670+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2020-01-16T21:07:32.005328+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Office lights off",
-                    "last_triggered": "2020-01-16T18:44:15.108582+00:00"
-                },
-                "context": {
-                    "id": "9fd7190771da47e2bb3ec8ee5e4c9dcd",
-                    "parent_id": "628013d541bc4888a4aad718ae6aa7db",
-                    "user_id": null
-                },
-                "entity_id": "automation.office_lights_off",
-                "last_changed": "2020-01-16T17:08:14.682163+00:00",
-                "last_updated": "2020-01-16T18:44:15.109210+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2020-01-16T21:07:32.005328+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Office lights on",
-                    "last_triggered": "2020-01-16T18:39:08.126277+00:00"
-                },
-                "context": {
-                    "id": "40cf38bdd3d24c3798eb58ecc53e510d",
-                    "parent_id": "d26f92b95f3b4f61bcb493214a77ea2d",
-                    "user_id": null
-                },
-                "entity_id": "automation.office_lights_on",
-                "last_changed": "2020-01-16T17:08:24.259514+00:00",
-                "last_updated": "2020-01-16T18:39:08.126595+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2020-01-16T21:07:32.005328+00:00",
+            "last_seen": "2020-01-18T06:54:28.004454+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
@@ -65,62 +10,117 @@
                     "user_id": "0db7275c0cf546378e73cd18e1cc3287"
                 },
                 "context": {
-                    "id": "698fdf47aebc4a7fbb03039729f30cb3",
+                    "id": "cb963db7024a474db01610d02715fb3f",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.jon_butterworth",
-                "last_changed": "2020-01-16T17:07:11.529963+00:00",
-                "last_updated": "2020-01-16T17:07:17.228579+00:00",
+                "last_changed": "2020-01-18T06:24:20.703606+00:00",
+                "last_updated": "2020-01-18T06:24:26.359458+00:00",
                 "state": "unknown"
             }
         },
         {
-            "last_seen": "2020-01-16T21:07:32.005328+00:00",
+            "last_seen": "2020-01-18T06:54:28.004454+00:00",
             "state": {
                 "attributes": {
-                    "altitude": 10.849498748779297,
-                    "battery_level": 57,
+                    "friendly_name": "Office lights on",
+                    "last_triggered": "2020-01-18T06:53:46.546153+00:00"
+                },
+                "context": {
+                    "id": "8b27c6a8e9914b78b55d7b66ceaecf6c",
+                    "parent_id": "2b8d7dc8e33c4b78b5c6ec729d061e13",
+                    "user_id": null
+                },
+                "entity_id": "automation.office_lights_on",
+                "last_changed": "2020-01-18T06:24:20.704138+00:00",
+                "last_updated": "2020-01-18T06:53:46.546583+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-01-18T06:54:28.004454+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Reset office PIR state",
+                    "hidden": true,
+                    "last_triggered": "2020-01-18T06:53:52.013779+00:00"
+                },
+                "context": {
+                    "id": "6caf8048a31d42058116160568cc11b3",
+                    "parent_id": "2b8d7dc8e33c4b78b5c6ec729d061e13",
+                    "user_id": null
+                },
+                "entity_id": "automation.reset_office_pir_state",
+                "last_changed": "2020-01-18T06:24:20.704608+00:00",
+                "last_updated": "2020-01-18T06:53:52.014421+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-01-18T06:54:28.004454+00:00",
+            "state": {
+                "attributes": {
+                    "altitude": 10.159174919128418,
+                    "battery_level": 82,
                     "friendly_name": "Natasha",
-                    "gps_accuracy": 165,
-                    "latitude": 50.60028076171875,
-                    "longitude": -3.461586805506657,
+                    "gps_accuracy": 65,
+                    "latitude": 50.6002354291509,
+                    "longitude": -3.461562826288967,
                     "source_type": "gps",
                     "vertical_accuracy": 10
                 },
                 "context": {
-                    "id": "7f332061d2564375a9c60d36ce22b31d",
+                    "id": "43d6df7224e04991bb0a624fc0f6a0e4",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.iphone",
-                "last_changed": "2020-01-16T17:07:11.734752+00:00",
-                "last_updated": "2020-01-16T19:04:21.415154+00:00",
+                "last_changed": "2020-01-18T06:24:22.069697+00:00",
+                "last_updated": "2020-01-18T06:24:22.069697+00:00",
                 "state": "home"
             }
         },
         {
-            "last_seen": "2020-01-16T21:07:32.005328+00:00",
+            "last_seen": "2020-01-18T06:54:28.004454+00:00",
             "state": {
                 "attributes": {
-                    "altitude": 10.337624549865723,
-                    "battery_level": 9,
+                    "altitude": 10.191804885864258,
+                    "battery_level": 81,
                     "friendly_name": "Jon\u2019s iPhone",
                     "gps_accuracy": 65,
-                    "latitude": 50.60024222914026,
-                    "longitude": -3.46155235621557,
+                    "latitude": 50.6002197265625,
+                    "longitude": -3.461556499003005,
                     "source_type": "gps",
                     "vertical_accuracy": 10
                 },
                 "context": {
-                    "id": "4dec6f1f417d45b5af7d7889b17b7098",
+                    "id": "ea002e9f9b1b49deb8dc02990c2a9ca6",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.jons_iphone",
-                "last_changed": "2020-01-16T17:07:11.735572+00:00",
-                "last_updated": "2020-01-16T19:43:25.962766+00:00",
+                "last_changed": "2020-01-18T06:24:22.070547+00:00",
+                "last_updated": "2020-01-18T06:24:22.070547+00:00",
                 "state": "home"
+            }
+        },
+        {
+            "last_seen": "2020-01-18T06:23:07.367423+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Office lights off",
+                    "last_triggered": "2020-01-18T04:52:40.126780+00:00"
+                },
+                "context": {
+                    "id": "c61c5d6b5ddd49498d26db7bdf9fac1f",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.office_lights_off",
+                "last_changed": "2020-01-17T09:41:16.478489+00:00",
+                "last_updated": "2020-01-18T04:52:40.127157+00:00",
+                "state": "on"
             }
         }
     ],
