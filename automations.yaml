@@ -13,7 +13,7 @@
     data:
       topic: rf_bridge/tele/RESULT
       payload: F60A9Eoff
-      
+
 - alias: Office lights on
   trigger:
     platform: state
